@@ -162,6 +162,7 @@
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <project path="vendor/pa/products" name="animehq-pa/vendor-pa" remote="master" groups="aospa" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" remote="aospa" groups="aospa" />
   <project path="vendor/pa/biometrics-face" name="AOSPA/android_vendor_pa-biometrics-face" remote="aospa" groups="aospa" />
